@@ -222,3 +222,47 @@ main {
   font-family: "inter";
   color: #252432;
 }
+
+.focus_area {
+  margin-top: 287px;
+  height: 696px;
+  border-radius: 14px;
+  background-color: #fff;
+}
+
+.focus_area_content {
+  padding: 71px 150px;
+}
+
+.focus_area_header {
+  font-family: "raleway";
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.focus_area_description {
+  font-family: "raleway";
+  margin-bottom: 20px;
+}
+
+.btn_btn_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.focus_area_btn {
+  width: 195px;
+  height: 48px;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: "raleway";
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img_img_img {
+  border-radius: 48px;
+}

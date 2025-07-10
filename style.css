@@ -24,6 +24,7 @@
 body {
   text-align: center;
   justify-content: center;
+  background-color: #faf9f6;
 }
 
 main {
@@ -167,4 +168,57 @@ main {
 .productive_users_count_shared_text_two {
   font-size: 20px;
   color: dimgray;
+}
+
+.reviews {
+  margin-top: 137px;
+}
+
+.customers_say {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+.card {
+  width: 366px;
+  height: 243px;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 24px;
+}
+.star {
+  margin-bottom: 24px;
+}
+
+.love_with_ph {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.customers_description {
+  font-family: "raleway";
+  margin: 24px 0px;
+}
+
+.customers_details {
+  display: flex;
+  gap: 12px;
+}
+
+.customers_img {
+  border-radius: 50%;
+}
+
+.customers_details_txt {
+  font-family: "inter";
+  color: #252432;
 }

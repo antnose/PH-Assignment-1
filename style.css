@@ -327,4 +327,49 @@ main {
   font-weight: 700;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 71px;
+  border: none;
+}
+
+.footer_section {
+  height: 428px;
+  background-color: #fff;
+
+  justify-content: center;
+}
+
+.footer_logo {
+  padding-top: 104px;
+  font-size: 100px;
+  font-family: "inter";
+  font-weight: bold;
+  color: #4e47ff;
+  margin-bottom: 10px;
+}
+
+.footer_desc {
+  color: #8987a1;
+  font-family: "raleway";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer_link {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  font-family: "raleway";
+}
+
+.footer_link a {
+  text-decoration: none;
+  color: #8987a1;
+}
+
+.nav_btn:hover,
+.heroBtn:hover,
+.live_preview_btn:hover,
+.focus_area_btn:hover,
+.contact_form_btn:hover {
+  background-color: #3b36cc;
 }

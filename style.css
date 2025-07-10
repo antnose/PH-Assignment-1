@@ -266,3 +266,65 @@ main {
 .img_img_img {
   border-radius: 48px;
 }
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.get_in_touch_section {
+  font-size: 97px;
+  font-weight: bold;
+  font-family: "raleway";
+}
+
+.label_heading {
+  text-align: left;
+  font-family: "inter";
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact_form {
+  text-align: left;
+}
+
+.input_field {
+  width: 497px;
+  height: 60px;
+  padding-left: 20px;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: "inter";
+}
+
+.text_area {
+  width: 497px;
+  height: 135px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 32px;
+  font-family: "inter";
+}
+
+.contact_form_btn_div {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form_btn {
+  margin-top: 20px;
+  width: 497px;
+  height: 62px;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: "raleway";
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}

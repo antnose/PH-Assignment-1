@@ -126,8 +126,45 @@ main {
   font-weight: bold;
   margin-left: 0;
   display: block;
+  cursor: pointer;
 }
 
 .seeItInAction_img {
   border-radius: 48px;
+}
+
+.productive_users_section {
+  margin-top: 116px;
+  height: 306px;
+  background-color: rgba(78, 41, 255, 0.07);
+  border-radius: 24px;
+}
+
+.productive_users_section_first_child {
+  padding: 50px 142px;
+}
+
+.productive_users_section_title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  font-family: "raleway";
+  margin-bottom: 40px;
+}
+
+.productive_users_count {
+  display: flex;
+  justify-content: space-between;
+  font-family: "inter";
+}
+
+.productive_users_count_shared_text {
+  font-weight: bold;
+  font-size: 80px;
+  color: #4e47ff;
+}
+
+.productive_users_count_shared_text_two {
+  font-size: 20px;
+  color: dimgray;
 }

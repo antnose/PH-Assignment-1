@@ -93,10 +93,11 @@ main {
   border: none;
   cursor: pointer;
 }
-/* 
+
 .seeItInAction {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .seeItInAction_title {
@@ -104,4 +105,29 @@ main {
   font-weight: bold;
   font-family: "raleway";
   color: #252432;
-} */
+}
+
+.seeItInAction_description {
+  text-align: left;
+  line-height: 30px;
+  font-size: 24px;
+  font-family: "raleway";
+  margin-bottom: 23px;
+}
+
+.live_preview_btn {
+  width: 229px;
+  height: 48px;
+  background-color: #4e47ff;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-family: "raleway";
+  font-weight: bold;
+  margin-left: 0;
+  display: block;
+}
+
+.seeItInAction_img {
+  border-radius: 48px;
+}
